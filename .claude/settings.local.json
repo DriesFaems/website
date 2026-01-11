@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s \"c:\\\\Users\\\\dries.faems\\\\OneDrive - WHU\\\\Dokumente\\\\Python Scripts\\\\Claude code\\\\design_website\")"
+    ]
+  }
+}
