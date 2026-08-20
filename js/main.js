@@ -262,11 +262,16 @@ function setLanguage(lang) {
         }
     });
 
-    // Update page title
-    const title = lang === 'en'
-        ? 'GenAI Expert Prof. Dr. Dries Faems | AI Workshops & Training | WHU'
-        : 'GenAI-Experte Prof. Dr. Dries Faems | KI-Workshops & Training | WHU';
-    document.title = title;
+    // Update page title (per-page via data-title-en/data-title-de, falls back to homepage title)
+    const titleEl = document.querySelector('title');
+    if (titleEl && titleEl.dataset.titleEn && titleEl.dataset.titleDe) {
+        document.title = lang === 'en' ? titleEl.dataset.titleEn : titleEl.dataset.titleDe;
+    } else {
+        const title = lang === 'en'
+            ? 'GenAI Expert Prof. Dr. Dries Faems | AI Workshops & Training | WHU'
+            : 'GenAI-Experte Prof. Dr. Dries Faems | KI-Workshops & Training | WHU';
+        document.title = title;
+    }
 }
 
 // Language toggle event listeners
