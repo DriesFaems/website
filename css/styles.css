@@ -1024,6 +1024,29 @@ a:focus-visible {
 }
 
 /* ===================================
+   Page Hero Photo
+   =================================== */
+.hero-photo-wrap {
+    max-width: 900px;
+    margin: var(--spacing-md) auto 0;
+}
+
+.hero-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+.hero-photo-caption {
+    text-align: center;
+    font-size: var(--fs-small);
+    color: var(--color-text-light);
+    margin-top: var(--spacing-xs);
+}
+
+/* ===================================
    Article Page
    =================================== */
 .article-header {
