@@ -1,3 +1,25 @@
+// Repair legacy UTF-8 text that was previously published with a Latin-1 decode.
+// This keeps older supporting pages readable while their source files are migrated.
+function repairEncoding(value) {
+    if (!value || !/[ÃÂâ]/.test(value)) return value;
+    try { return decodeURIComponent(escape(value)); } catch { return value; }
+}
+
+function repairVisibleEncoding() {
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    const textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+    textNodes.forEach(node => { node.nodeValue = repairEncoding(node.nodeValue); });
+    document.querySelectorAll('[title],[aria-label],[alt]').forEach(element => {
+        ['title', 'aria-label', 'alt'].forEach(attribute => {
+            if (element.hasAttribute(attribute)) element.setAttribute(attribute, repairEncoding(element.getAttribute(attribute)));
+        });
+    });
+    document.title = repairEncoding(document.title);
+}
+
+repairVisibleEncoding();
+
 // ===================================
 // Mobile Navigation Toggle
 // ===================================
@@ -281,5 +303,8 @@ langButtons.forEach(btn => {
     });
 });
 
-// Initialize language on page load
-setLanguage(getCurrentLanguage());
+// Initialize the legacy inline language switcher only on pages that still use it.
+// New localized routes keep their own language, URL and metadata intact.
+if (langButtons.length) {
+    setLanguage(getCurrentLanguage());
+}
