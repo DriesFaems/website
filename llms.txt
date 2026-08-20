@@ -9,6 +9,7 @@ Website: https://driesfaems.github.io/website/
 - About Prof. Dr. Dries Faems: https://driesfaems.github.io/website/about/
 - Research: https://driesfaems.github.io/website/research/
 - AI Contributions & Media: https://driesfaems.github.io/website/ai-contributions/
+- Article: Five Essential Tips for Building AI Skills: https://driesfaems.github.io/website/ai-contributions/five-tips-for-building-ai-skills/
 
 ## About
 - Academic: Chair of Entrepreneurship, Innovation & Technological Transformation, WHU Otto Beisheim School of Management.
