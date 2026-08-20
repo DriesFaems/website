@@ -1,0 +1,29 @@
+# Prof. Dr. Dries Faems
+
+> GenAI expert and Chair of Entrepreneurship, Innovation & Technological Transformation at WHU – Otto Beisheim School of Management. Specializes in generative AI workshops and training for businesses, covering ChatGPT, Microsoft Copilot, Claude, and Gemini.
+
+Website: https://driesfaems.github.io/website/
+
+## About
+- Academic: Chair of Entrepreneurship, Innovation & Technological Transformation, WHU Otto Beisheim School of Management.
+- Author of 6,000+ citations in academic research on innovation, entrepreneurship, and technology management.
+- Leads WHU's partnership with OpenAI.
+- Runs the "GenAI Nerd Channel" on YouTube, providing free AI training content.
+
+## AI Workshops & Training Programs
+- Online GenAI Bootcamp: 3-week intensive training on generative AI tools and trends (ChatGPT, Copilot, Claude, Gemini) for business professionals, no coding experience required.
+- Innovation & Corporate Entrepreneurship Program: executive education with hands-on generative AI tool applications.
+- Custom Corporate AI Workshops: tailored GenAI training for an organization's specific industry, use cases, and objectives, including hands-on demonstrations.
+
+## AI Contributions
+- GenAI Nerd Channel (YouTube): https://www.youtube.com/@GenAI_Nerd_Channel
+- WHU–OpenAI partnership lead.
+
+## Research
+- Focus areas: innovation management, entrepreneurship, AI strategy, AI business applications, technological transformation.
+- Google Scholar profile: https://scholar.google.com/citations?hl=en&user=xjR3J4gAAAAJ
+
+## Contact & Links
+- LinkedIn: https://www.linkedin.com/in/dries-faems-0371569
+- WHU faculty page: https://ee.whu.edu/the-experience/faculty/dries-faems/
+- Full site (all sections via anchors): https://driesfaems.github.io/website/
