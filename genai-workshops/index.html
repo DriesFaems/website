@@ -25,8 +25,6 @@
     <meta property="og:image"
           content="https://driesfaems.github.io/website/images/profile.jpg">
 
-    <link rel="stylesheet" href="../css/styles.css">
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -87,143 +85,129 @@
     }
     </script>
 
-    <style>
-        .content-page {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 120px 24px 80px;
-        }
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-        .content-page h1 {
-            margin-bottom: 24px;
-        }
-
-        .content-page h2 {
-            margin-top: 48px;
-            margin-bottom: 16px;
-        }
-
-        .content-page p,
-        .content-page li {
-            line-height: 1.7;
-        }
-
-        .page-nav {
-            margin-bottom: 40px;
-        }
-
-        .page-nav a {
-            margin-right: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main class="content-page">
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <a href="../"><span class="nav-name">Dries Faems</span></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../about/" class="nav-link">About</a></li>
+                    <li><a href="../genai-workshops/" class="nav-link active">AI Workshops</a></li>
+                    <li><a href="../#ai-contributions" class="nav-link">AI Contributions</a></li>
+                    <li><a href="../research/" class="nav-link">Research</a></li>
+                    <li><a href="../#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
 
-    <nav class="page-nav" aria-label="Page navigation">
-        <a href="../">Home</a>
-        <a href="../about/">About</a>
-        <a href="../research/">Research</a>
-    </nav>
+    <main id="main-content">
+        <!-- Page Hero -->
+        <section class="hero section section-alt">
+            <div class="container">
+                <h1 class="section-title">GenAI Workshops for Companies and Executives</h1>
+                <p class="section-intro">
+                    Hands-on generative AI workshops and training programs for executives, managers, entrepreneurs and business professionals &mdash; covering practical business applications of ChatGPT, Microsoft Copilot, Claude and Gemini.
+                </p>
+            </div>
+        </section>
 
-    <h1>GenAI Workshops for Companies and Executives</h1>
+        <!-- Programs -->
+        <section class="genai section">
+            <div class="container">
+                <h2 class="genai-programs-title">Training Formats</h2>
+                <p class="genai-programs-intro">
+                    The focus is not simply on explaining artificial intelligence. Participants work directly with leading generative AI tools and explore how they can be applied to real business problems, organizational processes, innovation and strategy.
+                </p>
 
-    <p>
-        Prof. Dr. Dries Faems provides hands-on generative AI workshops
-        and training programs for executives, managers, entrepreneurs and
-        business professionals.
-    </p>
+                <div class="programs-grid">
+                    <div class="program-card">
+                        <h3 class="program-title">Online GenAI Bootcamp</h3>
+                        <p class="program-description">A 3-week intensive online training on generative AI tools and trends, covering ChatGPT, Copilot, Claude and Gemini for business professionals.</p>
+                        <ul class="program-highlights">
+                            <li>No coding experience required</li>
+                            <li>Practical, business-focused exercises</li>
+                            <li>Latest AI tools and trends</li>
+                        </ul>
+                    </div>
 
-    <p>
-        The focus is not simply on explaining artificial intelligence.
-        Participants work directly with leading generative AI tools and
-        explore how they can be applied to real business problems,
-        organizational processes, innovation and strategy.
-    </p>
+                    <div class="program-card">
+                        <h3 class="program-title">Innovation &amp; Corporate Entrepreneurship Program</h3>
+                        <p class="program-description">Executive education with hands-on generative AI tool applications for innovation and entrepreneurship, delivered at WHU &ndash; Otto Beisheim School of Management.</p>
+                        <ul class="program-highlights">
+                            <li>Designed for executives and managers</li>
+                            <li>Hands-on AI tool applications</li>
+                            <li>Innovation &amp; entrepreneurship focus</li>
+                        </ul>
+                    </div>
 
-    <h2>What do participants learn in the GenAI workshops?</h2>
+                    <div class="program-card">
+                        <h3 class="program-title">Custom Corporate AI Workshops</h3>
+                        <p class="program-description">Tailored GenAI training for an organization's specific industry, use cases and strategic objectives, including hands-on demonstrations.</p>
+                        <ul class="program-highlights">
+                            <li>Adapted to your industry &amp; use cases</li>
+                            <li>Company-specific AI applications</li>
+                            <li>Ongoing implementation support</li>
+                        </ul>
+                    </div>
+                </div>
 
-    <p>
-        Workshops combine an understanding of current developments in
-        generative AI with practical experimentation. Topics include
-        ChatGPT, Microsoft Copilot, Claude and Gemini, prompt engineering,
-        AI-supported workflows, AI agents, innovation applications and
-        approaches to implementing generative AI inside organizations.
-    </p>
+                <div class="genai-collaboration">
+                    <h3 class="collaboration-title">Which generative AI tools are covered?</h3>
+                    <p class="collaboration-description">
+                        Training covers leading platforms such as ChatGPT, Microsoft Copilot, Claude and Gemini, along with prompt engineering techniques, large language model concepts and AI strategy development &mdash; helping participants understand each tool's strengths and how to select the right one for a given business task.
+                    </p>
+                    <a href="../#contact" class="btn btn-primary">Discuss a workshop for your organization</a>
+                </div>
+            </div>
+        </section>
 
-    <h2>Who are the workshops designed for?</h2>
+        <!-- FAQ -->
+        <section class="faq section section-alt">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3 class="faq-question">Who are the workshops designed for?</h3>
+                        <p class="faq-answer">The programs are primarily designed for executives, managers, entrepreneurs and other business professionals who want to understand how generative AI can improve the way they and their organizations work.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Do participants need coding experience?</h3>
+                        <p class="faq-answer">No. The emphasis is on practical business applications rather than software development, so no prior AI knowledge or coding experience is required.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Can a GenAI workshop be customized for a company?</h3>
+                        <p class="faq-answer">Yes. Corporate GenAI workshops can be adapted to the specific industry, participants, strategic priorities and use cases of an organization, combining an introduction to recent AI developments with hands-on exercises and discussion of implementation challenges.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Who is Prof. Dr. Dries Faems?</h3>
+                        <p class="faq-answer">Chair of Entrepreneurship, Innovation &amp; Technological Transformation at WHU &ndash; Otto Beisheim School of Management, combining academic research on innovation and entrepreneurship with practical experimentation in generative AI. Read more on the <a href="../about/">About page</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <p>
-        The programs are primarily designed for executives, managers,
-        entrepreneurs and other business professionals who want to
-        understand how generative AI can improve the way they and their
-        organizations work.
-    </p>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2026 Prof. Dr. Dries Faems. All rights reserved.</p>
+        </div>
+    </footer>
 
-    <p>
-        No coding experience is required. The emphasis is on practical
-        business applications rather than software development.
-    </p>
-
-    <h2>Can a GenAI workshop be customized for a company?</h2>
-
-    <p>
-        Yes. Corporate GenAI workshops can be adapted to the specific
-        industry, participants, strategic priorities and use cases of an
-        organization.
-    </p>
-
-    <p>
-        Company-specific workshops can combine an introduction to recent
-        AI developments with hands-on exercises, use-case development,
-        prompting techniques and discussion of organizational
-        implementation challenges.
-    </p>
-
-    <h2>Which generative AI tools are covered?</h2>
-
-    <p>
-        Training can include leading platforms such as ChatGPT,
-        Microsoft Copilot, Claude and Gemini. The emphasis is on helping
-        participants understand the strengths and limitations of
-        different tools and how to select them for specific business
-        tasks.
-    </p>
-
-    <h2>What GenAI training formats are available?</h2>
-
-    <p>
-        Current activities include the Online GenAI Bootcamp, executive
-        education programs at WHU – Otto Beisheim School of Management,
-        and customized corporate workshops.
-    </p>
-
-    <h2>Who is Prof. Dr. Dries Faems?</h2>
-
-    <p>
-        Prof. Dr. Dries Faems is Chair of Entrepreneurship, Innovation
-        &amp; Technological Transformation at WHU – Otto Beisheim School
-        of Management. His work combines academic research on innovation
-        and entrepreneurship with practical experimentation in
-        generative AI and AI-supported business applications.
-    </p>
-
-    <p>
-        He also runs the GenAI Nerd Channel, which provides practical
-        content about new generative AI technologies and business
-        applications.
-    </p>
-
-    <h2>Learn more</h2>
-
-    <p>
-        <a href="../">Visit the Dries Faems homepage</a> or
-        <a href="../about/">read more about Dries Faems</a>.
-    </p>
-
-</main>
-
+    <script src="../js/main.js"></script>
 </body>
 </html>

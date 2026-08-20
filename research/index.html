@@ -22,8 +22,6 @@
     <meta property="og:url" content="https://driesfaems.github.io/website/research/">
     <meta property="og:image" content="https://driesfaems.github.io/website/images/profile.jpg">
 
-    <link rel="stylesheet" href="../css/styles.css">
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -49,128 +47,99 @@
     }
     </script>
 
-    <style>
-        .content-page {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 120px 24px 80px;
-        }
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-        .content-page h1 {
-            margin-bottom: 24px;
-        }
-
-        .content-page h2 {
-            margin-top: 48px;
-            margin-bottom: 16px;
-        }
-
-        .content-page p,
-        .content-page li {
-            line-height: 1.7;
-        }
-
-        .page-nav {
-            margin-bottom: 40px;
-        }
-
-        .page-nav a {
-            margin-right: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main class="content-page">
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <a href="../"><span class="nav-name">Dries Faems</span></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../about/" class="nav-link">About</a></li>
+                    <li><a href="../genai-workshops/" class="nav-link">AI Workshops</a></li>
+                    <li><a href="../#ai-contributions" class="nav-link">AI Contributions</a></li>
+                    <li><a href="../research/" class="nav-link active">Research</a></li>
+                    <li><a href="../#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
 
-    <nav class="page-nav" aria-label="Page navigation">
-        <a href="../">Home</a>
-        <a href="../about/">About</a>
-        <a href="../genai-workshops/">GenAI Workshops</a>
-    </nav>
+    <main id="main-content">
+        <!-- Page Hero -->
+        <section class="hero section section-alt">
+            <div class="container">
+                <h1 class="section-title">Research by Prof. Dr. Dries Faems</h1>
+                <p class="section-intro">
+                    My research explores the dynamic intersections of collaboration, innovation, and organizational transformation, with a focus on how companies navigate technological change and build effective innovation ecosystems.
+                </p>
+            </div>
+        </section>
 
-    <h1>Research by Prof. Dr. Dries Faems</h1>
+        <!-- Research Topics -->
+        <section class="research section">
+            <div class="container">
+                <div class="research-grid">
+                    <div class="research-card">
+                        <h3 class="card-title">Collaboration for Innovation</h3>
+                        <p class="card-description">Examining how organizations leverage partnerships, alliances and ecosystems to drive innovation and technological advancement.</p>
+                    </div>
+                    <div class="research-card">
+                        <h3 class="card-title">Entrepreneurship &amp; Technological Transformation</h3>
+                        <p class="card-description">Understanding how entrepreneurs and established firms navigate disruptive technological change and build sustainable competitive advantages.</p>
+                    </div>
+                    <div class="research-card">
+                        <h3 class="card-title">R&amp;D Alliances &amp; Governance</h3>
+                        <p class="card-description">Investigating governance mechanisms and processes that enable effective management of research and development collaborations.</p>
+                    </div>
+                    <div class="research-card">
+                        <h3 class="card-title">Innovation Ecosystems</h3>
+                        <p class="card-description">Exploring the dynamics of innovation ecosystems, including trust, disruption, and the orchestration of multiple stakeholders.</p>
+                    </div>
+                    <div class="research-card">
+                        <h3 class="card-title">Intellectual Property Management</h3>
+                        <p class="card-description">Analyzing strategies for managing intellectual property in collaborative innovation contexts and open innovation settings.</p>
+                    </div>
+                    <div class="research-card">
+                        <h3 class="card-title">Human Side of Innovation</h3>
+                        <p class="card-description">Examining the behavioral and social aspects of innovation, including diversity, learning processes and organizational culture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <p>
-        Prof. Dr. Dries Faems is Chair of Entrepreneurship, Innovation
-        &amp; Technological Transformation at WHU – Otto Beisheim School
-        of Management. His academic research advances the understanding
-        of innovation management and entrepreneurship, with publications
-        in leading journals and over 6,000 citations.
-    </p>
+        <!-- Publications CTA -->
+        <section class="publications section section-alt">
+            <div class="container">
+                <h2 class="section-title">Publications</h2>
+                <p class="section-intro">
+                    Prof. Faems' work has been published in leading journals such as the <strong>Academy of Management Journal</strong>, <strong>Strategic Management Journal</strong>, <strong>Journal of Management</strong>, <strong>Research Policy</strong> and <strong>Journal of Management Studies</strong>, with over 6,000 citations.
+                </p>
+                <p style="text-align:center;">
+                    <a href="https://scholar.google.com/citations?hl=en&user=xjR3J4gAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Google Scholar Profile</a>
+                </p>
+            </div>
+        </section>
+    </main>
 
-    <h2>What does Dries Faems research?</h2>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2026 Prof. Dr. Dries Faems. All rights reserved.</p>
+        </div>
+    </footer>
 
-    <p>
-        His research spans several interconnected areas of innovation
-        management and entrepreneurship, described below.
-    </p>
-
-    <h2>Collaboration for Innovation</h2>
-
-    <p>
-        Examining how organizations leverage partnerships, alliances and
-        ecosystems to drive innovation and technological advancement.
-    </p>
-
-    <h2>Entrepreneurship & Technological Transformation</h2>
-
-    <p>
-        Understanding how entrepreneurs and established firms navigate
-        disruptive technological change and build sustainable competitive
-        advantages.
-    </p>
-
-    <h2>R&D Alliances & Governance</h2>
-
-    <p>
-        Investigating governance mechanisms and processes that enable
-        effective management of research and development collaborations.
-    </p>
-
-    <h2>Innovation Ecosystems</h2>
-
-    <p>
-        Exploring the dynamics of innovation ecosystems, including trust,
-        disruption, and the orchestration of multiple stakeholders.
-    </p>
-
-    <h2>Intellectual Property Management</h2>
-
-    <p>
-        Analyzing strategies for managing intellectual property in
-        collaborative innovation contexts and open innovation settings.
-    </p>
-
-    <h2>Human Side of Innovation</h2>
-
-    <p>
-        Examining the behavioral and social aspects of innovation,
-        including diversity, learning processes and organizational
-        culture.
-    </p>
-
-    <h2>Where has this research been published?</h2>
-
-    <p>
-        Prof. Faems' work has been published in leading journals such as
-        the Academy of Management Journal, Strategic Management Journal,
-        Journal of Management, Research Policy and Journal of Management
-        Studies. View the complete publication record and citation
-        metrics on
-        <a href="https://scholar.google.com/citations?hl=en&user=xjR3J4gAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>.
-    </p>
-
-    <h2>Learn more</h2>
-
-    <p>
-        <a href="../">Visit the Dries Faems homepage</a>,
-        <a href="../about/">read more about Dries Faems</a>, or
-        <a href="../genai-workshops/">explore GenAI workshops</a>.
-    </p>
-
-</main>
-
+    <script src="../js/main.js"></script>
 </body>
 </html>
