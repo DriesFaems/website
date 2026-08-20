@@ -1,8 +1,12 @@
 // Repair legacy UTF-8 text that was previously published with a Latin-1 decode.
 // This keeps older supporting pages readable while their source files are migrated.
 function repairEncoding(value) {
-    if (!value || !/[ÃÂâ]/.test(value)) return value;
-    try { return decodeURIComponent(escape(value)); } catch { return value; }
+    if (!value) return value;
+    let repaired = value;
+    if (/[ÃÂâ]/.test(repaired)) {
+        try { repaired = decodeURIComponent(escape(repaired)); } catch { /* keep the original text */ }
+    }
+    return repaired.replace(/FÉ|F&Eamp;E/g, 'F&E');
 }
 
 function repairVisibleEncoding() {
